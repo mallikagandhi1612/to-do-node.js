@@ -3,7 +3,8 @@ const tracer = require('dd-trace').init({
     env:"none",
     service:"to-do",
     logInjection:true,
-    profiling: true
+    profiling: true,
+    runtimeMetrics: true 
 })
 
 
